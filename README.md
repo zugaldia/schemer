@@ -31,15 +31,17 @@ Generating the coordinates
 --------------------------
 
 The "pulsating logo" is made out of around 1,000 circles, logically we didn't
-create the coordinates manually. To check how it works see coordinates/logo.php.
+create the coordinates manually. To check how it works see
+[coordinates/logo.php](https://github.com/zugaldia/schemer/blob/master/coordinates/logo.php).
 
 License
 -------
 
-Feel free to contribute or use this code in your projects. See LICENSE.txt for
-more details.
+Feel free to contribute or use this code in your projects. See
+[LICENSE.md](https://github.com/zugaldia/schemer/blob/master/LICENSE.md)
+for more details.
 
 Author
 ------
 
-Antonio Zugaldia
+Antonio Zugaldia.
