@@ -1,6 +1,11 @@
 README
 ======
 
+Live version: http://zugaldia.github.com/schemer/
+
+Background
+==========
+
 This is an entry submitted to the "Scheme up Google I/O" competition. We had
 48 hours to "Design and implement a Schemer Doodle using HTML5, CSS3 or any
 other technology supported in Chrome":
