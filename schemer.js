@@ -148,7 +148,7 @@ $(document).ready(function () {
 	var del = d3.scale.linear().domain([0,1]).range([0,1])
 	
 	// Put the Schemer logo together
-	d3.csv('coordinates/logo.csv', function (parsedRows) {
+	d3.csv('logo.csv', function (parsedRows) {
 		// CSV has been loaded, let's start showing the other elements in the page
 		$('#status').remove();
 		$('#schemer').fadeIn(5000);
