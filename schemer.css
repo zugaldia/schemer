@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+/*
+ * Background image and font copied from Schemer's website to keep look
+ * and feel, it's still their copyright.
+ */
+
+body {
+	height: 100%;
+	background: #89D0E9 url(bg-lt-blue.png);
+	background-image: url(bg-lt-blue.png);
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: #89D0E9;
+}
+
+@font-face {
+	font-family:"Hitchcock";
+	src:url('https://ssl.gstatic.com/schemer/fonts/v1/Hitchcock.eot');
+	src:local('☺'),url('https://ssl.gstatic.com/schemer/fonts/v1/Hitchcock.ttf') format('truetype')
+}
+
+#legend {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	color: white;
+	text-align: right;
+	font-family:"Hitchcock";
+	font-size: 10px;
+	font-style: normal;
+}
+
+#legend a {
+	color: white;
+	text-decoration:underline;
+}
+
+#status {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+	color: white;
+	font-family:"Hitchcock";
+	font-size: 10px;
+	font-style: normal;
+}
+
+#schemer {
+	position: absolute;
+	top: 75px;
+	left: 210px;
+	font-family: Hitchcock, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75px;
+	font-style: normal;
+}
+
+#icon-search, #schemer, #legend {
+	display: none;
+}
+
+#search {
+	position: absolute;
+	top: 470px;
+	left: 230px;
+	font-family: Hitchcock, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+}
+
+input {
+	font-family: Hitchcock, Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	padding: 7px 23px 7px 7px;
+	font-size: 17px;
+	border: none;
+	height: 100%;
+	width: 400px;
+}
+
+#icon {
+	position: absolute;
+	top: 470px;
+	left: 210px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 35px;
+	width: 14px;
+	background: url(https://ssl.gstatic.com/schemer/v1/images/search-icon.png) no-repeat center;
+}
