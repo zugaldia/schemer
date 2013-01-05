@@ -1,4 +1,4 @@
-Live version: http://zugaldia.github.com/schemer
+Live version: [http://zugaldia.github.com/schemer](http://zugaldia.github.com/schemer)
 
 Background
 ----------
